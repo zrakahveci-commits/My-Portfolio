@@ -32,20 +32,7 @@ const Downloads = () => {
           {t('downloads.intro')}
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
-          <Card className="p-8 animate-slide-up text-center hover:shadow-lg transition-shadow">
-            <FileText className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-bold mb-2">{t('downloads.cv.title')}</h3>
-            <p className="text-muted-foreground mb-6">{t('downloads.cv.desc')}</p>
-            <Button 
-              className="w-full"
-              onClick={() => handleDownload('Canvas_Lebenslauf.pdf')}
-            >
-              <Download className="mr-2 h-4 w-4" />
-              {t('downloads.cv.button')}
-            </Button>
-          </Card>
-
+        <div className="grid md:grid-cols-2 gap-8 mb-8">
           <Card className="p-8 animate-slide-up text-center hover:shadow-lg transition-shadow">
             <Award className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">{t('downloads.multicheck.title')}</h3>

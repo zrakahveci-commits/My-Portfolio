@@ -36,8 +36,8 @@ const translations = {
     'about.bio.title': 'Meine Geschichte',
     'about.bio.text': 'Ich besuche derzeit die 9. Klasse der Seebelschule Pfungen und bin auf der Suche nach einer spannenden Lehrstelle. Meine Interessen liegen vor allem in technischen Bereichen. Neben der Schule engagiere ich mich in verschiedenen Projekten und bin immer bereit, Neues zu lernen.',
     'about.languages.title': 'Sprachen',
-    'about.languages.turkish': 'Türkisch (Muttersprache)',
-    'about.languages.german': 'Deutsch (2. Muttersprache, sehr gut)',
+    'about.languages.turkish': 'Türkisch (1. Muttersprache)',
+    'about.languages.german': 'Deutsch (2. Muttersprache)',
     'about.languages.english': 'Englisch (fliessend, sehr gut)',
     'about.languages.french': 'Französisch (5 Jahre Schulkenntnisse)',
     'about.school.title': 'Ausbildung',
@@ -82,8 +82,8 @@ const translations = {
     'resume.motivation.title': 'Meine Motivation',
     'resume.motivation.text': 'Ich suche eine Lehrstelle, in der ich meine technischen Fähigkeiten einbringen und weiterentwickeln kann. Besonders wichtig sind mir ein gutes Arbeitsklima, interessante Projekte und die Möglichkeit, von erfahrenen Fachkräften zu lernen. Ich bin hochmotiviert, zuverlässig und freue mich darauf, praktische Erfahrungen zu sammeln und einen wertvollen Beitrag zu Ihrem Team zu leisten.',
     'resume.timeline.title': 'Werdegang',
-    'resume.timeline.2020': '2020 - 2026: Realschule Musterstadt',
-    'resume.timeline.2016': '2016 - 2020: Grundschule Musterstadt',
+    'resume.timeline.2023': '2023 - 2026: Schulhaus Seebel Sek A',
+    'resume.timeline.2017': '2017 - 2023: Schulhaus Breiteacker',
     
     // References Page
     'references.title': 'Referenzen',
