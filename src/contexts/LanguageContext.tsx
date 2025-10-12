@@ -169,9 +169,10 @@ const translations = {
     'about.strength.3': 'Accuracy – I work precisely and carefully',
     'about.strength.4': 'Reliability – You can count on me',
     'about.hobbies.title': 'Hobbies & Interests',
-    'about.hobby.1': 'Playing soccer in a club',
+    'about.hobby.1': 'Playing guitar in a band',
     'about.hobby.2': 'Programming and new technologies',
-    'about.hobby.3': 'Photography and creative projects',
+    'about.hobby.3': 'Sewing and design',
+    'about.hobby.4': 'Reading books',
     
     // Skills Page
     'skills.title': 'My Skills',
@@ -202,8 +203,8 @@ const translations = {
     'resume.motivation.title': 'My Motivation',
     'resume.motivation.text': 'I am looking for an apprenticeship where I can apply and develop my technical skills. A good work environment, interesting projects, and the opportunity to learn from experienced professionals are particularly important to me. I am highly motivated, reliable, and look forward to gaining practical experience and making a valuable contribution to your team.',
     'resume.timeline.title': 'Timeline',
-    'resume.timeline.2020': '2020 - 2026: Realschule Musterstadt',
-    'resume.timeline.2016': '2016 - 2020: Primary School Musterstadt',
+    'resume.timeline.2023': '2023 - 2026: Schulhaus Seebel Sek A',
+    'resume.timeline.2017': '2017 - 2023: Schulhaus Breiteacker',
     
     // References Page
     'references.title': 'References',
