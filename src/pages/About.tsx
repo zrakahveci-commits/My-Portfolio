@@ -30,8 +30,10 @@ const About = () => {
               {t('about.languages.title')}
             </h2>
             <ul className="space-y-3">
+              <li className="text-muted-foreground">{t('about.languages.turkish')}</li>
               <li className="text-muted-foreground">{t('about.languages.german')}</li>
               <li className="text-muted-foreground">{t('about.languages.english')}</li>
+              <li className="text-muted-foreground">{t('about.languages.french')}</li>
             </ul>
           </Card>
 
@@ -67,8 +69,8 @@ const About = () => {
             <Heart className="mr-2 h-6 w-6 text-primary" />
             {t('about.hobbies.title')}
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
-            {[1, 2, 3].map((num) => (
+          <div className="grid md:grid-cols-2 gap-4">
+            {[1, 2, 3, 4].map((num) => (
               <div key={num} className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3" />
                 <p className="text-muted-foreground">{t(`about.hobby.${num}`)}</p>
