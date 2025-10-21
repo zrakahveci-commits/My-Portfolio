@@ -56,7 +56,7 @@ const translations = {
     
     // Skills Page
     'skills.title': 'Meine Fähigkeiten',
-    'skills.subtitle': 'Was ich kann',
+    'skills.subtitle': '',
     'skills.technical.title': 'Fachliche Fähigkeiten',
     'skills.technical.1': 'Grundkenntnisse Python, HTML & CSS',
     'skills.technical.2': 'Capcut',
@@ -73,7 +73,7 @@ const translations = {
     'resume.title': 'Lebenslauf',
     'resume.subtitle': 'Mein Werdegang',
     'resume.download.title': 'Lebenslauf herunterladen',
-    'resume.download.text': 'Lade meinen vollständigen Lebenslauf als PDF herunter.',
+    'resume.download.text': '',
     'resume.download.button': 'PDF herunterladen',
     'resume.contact.title': 'Kontaktinformationen',
     'resume.contact.email': 'zrakahveci@gmail.com',
@@ -87,7 +87,7 @@ const translations = {
     
     // References Page
     'references.title': 'Referenzen',
-    'references.subtitle': 'Meine Referenzen',
+    'references.subtitle': '',
     'references.ref1.name': 'Stefan Spühler',
     'references.ref1.position': 'Klassenlehrperson',
     'references.ref1.text': 'Für Referenzen stehe ich gerne zur Verfügung.',
@@ -177,7 +177,7 @@ const translations = {
     
     // Skills Page
     'skills.title': 'My Skills',
-    'skills.subtitle': 'What I Can Do',
+    'skills.subtitle': '',
     'skills.technical.title': 'Technical Skills',
     'skills.technical.1': 'Basic HTML & CSS knowledge',
     'skills.technical.2': 'Adobe Photoshop',
@@ -194,7 +194,7 @@ const translations = {
     'resume.title': 'Resume',
     'resume.subtitle': 'My Background',
     'resume.download.title': 'Download Resume',
-    'resume.download.text': 'Download my complete resume as a PDF.',
+    'resume.download.text': '',
     'resume.download.button': 'Download PDF',
     'resume.contact.title': 'Contact Information',
     'resume.contact.email': 'zarasu.kahveci@example.com',
@@ -208,7 +208,7 @@ const translations = {
     
     // References Page
     'references.title': 'References',
-    'references.subtitle': 'My References',
+    'references.subtitle': '',
     'references.ref1.name': 'Stefan Spühler',
     'references.ref1.position': 'Klassenlehrperson',
     'references.ref1.text': 'Available for references upon request.',

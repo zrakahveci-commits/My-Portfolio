@@ -15,8 +15,7 @@ const Resume = () => {
         {/* Download Section */}
         <Card className="p-8 mb-8 animate-slide-up text-center">
           <h2 className="text-2xl font-bold mb-4">{t('resume.download.title')}</h2>
-          <p className="text-muted-foreground mb-6">{t('resume.download.text')}</p>
-          <Button 
+          <Button
             size="lg" 
             className="bg-primary hover:bg-primary/90"
             onClick={() => {
