@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <PageHeader title={t('skills.title')} subtitle={t('skills.subtitle')} />
+        <PageHeader title={t('skills.title')} />
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Technical Skills */}

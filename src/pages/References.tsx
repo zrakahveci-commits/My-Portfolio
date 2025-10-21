@@ -16,7 +16,7 @@ const References = () => {
   return (
     <div className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <PageHeader title={t('references.title')} subtitle={t('references.subtitle')} />
+        <PageHeader title={t('references.title')} />
 
         <div className="flex justify-center">
           <Card className="p-8 animate-slide-up relative max-w-2xl w-full">
