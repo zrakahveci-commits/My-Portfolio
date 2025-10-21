@@ -50,8 +50,8 @@ const translations = {
     'about.strength.4': 'Zuverlässigkeit – Auf mich kann man sich verlassen',
     'about.hobbies.title': 'Hobbys & Interessen',
     'about.hobby.1': 'Gitarre spielen in der Band',
-    'about.hobby.2': 'Programmieren und neue Technologien',
-    'about.hobby.3': 'Nähen und Design',
+    'about.hobby.2': 'Programmieren und neue Technologien ausprobieren',
+    'about.hobby.3': 'Nähen und Designen',
     'about.hobby.4': 'Bücher lesen',
     
     // Skills Page
@@ -89,7 +89,9 @@ const translations = {
     'references.title': 'Referenzen',
     'references.subtitle': 'Meine Referenzen',
     'references.intro': 'Hier finden Sie meine Referenzen.',
-    'references.ref1.name': 'Herr Spüehler',
+    'references.ref1.name': 'Stefan Spühler',
+    'references.ref1.position': 'Klassenlehrperson',
+    'references.ref1.text': 'Für Referenzen stehe ich gerne zur Verfügung.',
     'references.ref1.email': 'stefan.spuehler@schulepfungen.ch',
     'references.ref1.phone': '+41 79 757 06 39',
     
@@ -170,8 +172,8 @@ const translations = {
     'about.strength.4': 'Reliability – You can count on me',
     'about.hobbies.title': 'Hobbies & Interests',
     'about.hobby.1': 'Playing guitar in a band',
-    'about.hobby.2': 'Programming and new technologies',
-    'about.hobby.3': 'Sewing and design',
+    'about.hobby.2': 'Programming and trying new technologies',
+    'about.hobby.3': 'Sewing and designing',
     'about.hobby.4': 'Reading books',
     
     // Skills Page
