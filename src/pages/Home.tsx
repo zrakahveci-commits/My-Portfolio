@@ -10,13 +10,13 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="hero-gradient text-white py-32 px-4">
+      <section className="bg-white py-32 px-4">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <p className="text-lg mb-2 opacity-90">{t('home.greeting')}</p>
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">{t('home.name')}</h1>
-          <p className="text-2xl mb-2 opacity-90">{t('home.age')}</p>
-          <p className="text-3xl font-semibold mb-8">{t('home.goal')}</p>
-          <p className="text-xl max-w-2xl mx-auto mb-12 opacity-90">
+          <p className="text-lg mb-2 text-[hsl(210,100%,25%)]">{t('home.greeting')}</p>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-[hsl(210,100%,25%)]">{t('home.name')}</h1>
+          <p className="text-2xl mb-2 text-[hsl(210,100%,25%)]">{t('home.age')}</p>
+          <p className="text-3xl font-semibold mb-8 text-[hsl(210,100%,25%)]">{t('home.goal')}</p>
+          <p className="text-xl max-w-2xl mx-auto mb-12 text-[hsl(210,100%,25%)]">
             {t('home.intro')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -27,7 +27,7 @@ const Home = () => {
               </Button>
             </Link>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border-white/30">
+              <Button size="lg" variant="outline" className="w-full sm:w-auto">
                 <Mail className="mr-2 h-5 w-5" />
                 {t('home.cta.contact')}
               </Button>

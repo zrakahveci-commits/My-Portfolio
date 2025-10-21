@@ -88,7 +88,6 @@ const translations = {
     // References Page
     'references.title': 'Referenzen',
     'references.subtitle': 'Meine Referenzen',
-    'references.intro': 'Hier finden Sie meine Referenzen.',
     'references.ref1.name': 'Stefan Spühler',
     'references.ref1.position': 'Klassenlehrperson',
     'references.ref1.text': 'Für Referenzen stehe ich gerne zur Verfügung.',
@@ -209,14 +208,12 @@ const translations = {
     
     // References Page
     'references.title': 'References',
-    'references.subtitle': 'What Others Say About Me',
-    'references.intro': 'Here you will find references and recommendations from teachers and supervisors.',
-    'references.ref1.name': 'Mr. Müller',
-    'references.ref1.position': 'Class Teacher',
-    'references.ref1.text': '"Zarasu is a very dedicated and reliable student. He shows great interest in technical topics and always works precisely. I can highly recommend him as an apprentice."',
-    'references.ref2.name': 'Mrs. Schmidt',
-    'references.ref2.position': 'Computer Science Teacher',
-    'references.ref2.text': '"Zarasu has always shown great interest in my class and distinguished himself through his quick comprehension. He is a team player and helpful."',
+    'references.subtitle': 'My References',
+    'references.ref1.name': 'Stefan Spühler',
+    'references.ref1.position': 'Klassenlehrperson',
+    'references.ref1.text': 'Available for references upon request.',
+    'references.ref1.email': 'stefan.spuehler@schulepfungen.ch',
+    'references.ref1.phone': '+41 79 757 06 39',
     
     // Downloads Page
     'downloads.title': 'Downloads',
