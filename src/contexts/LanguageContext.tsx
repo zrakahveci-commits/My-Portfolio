@@ -61,7 +61,7 @@ const translations = {
     'skills.technical.1': 'Grundkenntnisse Python, HTML & CSS',
     'skills.technical.2': 'Capcut',
     'skills.technical.3': 'Microsoft Office (Word, Excel, PowerPoint)',
-    'skills.technical.4': 'Canvas',
+    'skills.technical.4': 'Canva',
     'skills.soft.title': 'Soft Skills',
     'skills.soft.1': 'Teamarbeit',
     'skills.soft.2': 'Zuverlässigkeit',
