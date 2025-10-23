@@ -77,7 +77,7 @@ const translations = {
     'resume.download.button': 'PDF herunterladen',
     'resume.contact.title': 'Kontaktinformationen',
     'resume.contact.email': 'zrakahveci@gmail.com',
-    'resume.contact.phone': '+48 940 05 04',
+    'resume.contact.phone': '+41 78 940 05 04',
     'resume.contact.location': 'Pfungen, Schweiz',
     'resume.motivation.title': 'Meine Motivation',
     'resume.motivation.text': 'Ich suche eine Lehrstelle, in der ich meine technischen Fähigkeiten einbringen und weiterentwickeln kann. Besonders wichtig sind mir ein gutes Arbeitsklima, interessante Projekte und die Möglichkeit, von erfahrenen Fachkräften zu lernen. Ich bin hochmotiviert, zuverlässig und freue mich darauf, praktische Erfahrungen zu sammeln und einen wertvollen Beitrag zu Ihrem Team zu leisten.',
@@ -123,7 +123,7 @@ const translations = {
     'contact.form.success': 'Vielen Dank für Ihre Nachricht! Ich werde mich schnellstmöglich bei Ihnen melden.',
     'contact.info.title': 'Kontaktinformationen',
     'contact.info.email': 'zrakahveci@gmail.com',
-    'contact.info.phone': '+48 940 05 04',
+    'contact.info.phone': '+41 78 940 05 04',
     'contact.info.location': 'Pfungen, Schweiz',
     'contact.outro': 'Vielen Dank für Ihre Zeit – ich freue mich auf Ihre Rückmeldung!',
     
