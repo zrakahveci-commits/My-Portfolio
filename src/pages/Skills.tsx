@@ -6,7 +6,7 @@ import { Code, Users } from 'lucide-react';
 const Skills = () => {
   const { t } = useLanguage();
 
-  const technicalSkills = [1, 2, 3];
+  const technicalSkills = [1, 2, 3, 4];
   const softSkills = [1, 2, 3, 4, 5, 6];
 
   return (

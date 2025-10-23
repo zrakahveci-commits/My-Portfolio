@@ -51,6 +51,8 @@ const translations = {
     'about.hobbies.title': 'Hobbys & Interessen',
     'about.hobby.1': 'Gitarre',
     'about.hobby.2': 'Programmieren',
+    'about.hobby.3': 'Bücher lesen',
+    'about.hobby.4': 'Nähen & Designen',
     
     // Skills Page
     'skills.title': 'Meine Fähigkeiten',
@@ -59,6 +61,7 @@ const translations = {
     'skills.technical.1': 'Grundkenntnisse Python, HTML & CSS',
     'skills.technical.2': 'Capcut',
     'skills.technical.3': 'Microsoft Office (Word, Excel, PowerPoint)',
+    'skills.technical.4': 'Canvas',
     'skills.soft.title': 'Soft Skills',
     'skills.soft.1': 'Teamarbeit',
     'skills.soft.2': 'Zuverlässigkeit',

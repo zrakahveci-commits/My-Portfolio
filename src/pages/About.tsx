@@ -57,7 +57,7 @@ const About = () => {
             {t('about.hobbies.title')}
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            {[1, 2].map((num) => (
+            {[1, 2, 3, 4].map((num) => (
               <div key={num} className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3" />
                 <p className="text-muted-foreground">{t(`about.hobby.${num}`)}</p>
