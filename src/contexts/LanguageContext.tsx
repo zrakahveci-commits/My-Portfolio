@@ -49,14 +49,12 @@ const translations = {
     'about.strength.3': 'Genauigkeit – Ich arbeite präzise und sorgfältig',
     'about.strength.4': 'Zuverlässigkeit – Auf mich kann man sich verlassen',
     'about.hobbies.title': 'Hobbys & Interessen',
-    'about.hobby.1': 'Gitarre spielen in der Band',
-    'about.hobby.2': 'Programmieren und neue Technologien ausprobieren',
-    'about.hobby.3': 'Nähen und Designen',
-    'about.hobby.4': 'Bücher lesen',
+    'about.hobby.1': 'Gitarre',
+    'about.hobby.2': 'Programmieren',
     
     // Skills Page
     'skills.title': 'Meine Fähigkeiten',
-    'skills.subtitle': '',
+    'skills.subtitle': 'Was mich auszeichnet',
     'skills.technical.title': 'Fachliche Fähigkeiten',
     'skills.technical.1': 'Grundkenntnisse Python, HTML & CSS',
     'skills.technical.2': 'Capcut',

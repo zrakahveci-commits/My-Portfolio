@@ -50,19 +50,6 @@ const About = () => {
           </Card>
         </div>
 
-        {/* Strengths */}
-        <Card className="p-8 mt-8 animate-slide-up">
-          <h2 className="text-2xl font-bold mb-6">{t('about.strengths.title')}</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            {[1, 2, 3, 4].map((num) => (
-              <div key={num} className="flex items-start">
-                <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3" />
-                <p className="text-muted-foreground">{t(`about.strength.${num}`)}</p>
-              </div>
-            ))}
-          </div>
-        </Card>
-
         {/* Hobbies */}
         <Card className="p-8 mt-8 animate-slide-up">
           <h2 className="text-2xl font-bold mb-6 flex items-center">
@@ -70,7 +57,7 @@ const About = () => {
             {t('about.hobbies.title')}
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            {[1, 2, 3, 4].map((num) => (
+            {[1, 2].map((num) => (
               <div key={num} className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3" />
                 <p className="text-muted-foreground">{t(`about.hobby.${num}`)}</p>
