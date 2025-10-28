@@ -3,6 +3,8 @@ import { ArrowRight, User, Mail } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import profilePicture from '@/assets/profile-picture.jpeg';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -12,6 +14,10 @@ const Home = () => {
       {/* Hero Section */}
       <section className="bg-white py-32 px-4">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
+          <Avatar className="h-24 w-24 mx-auto mb-6">
+            <AvatarImage src={profilePicture} alt="Profile" />
+            <AvatarFallback>ZK</AvatarFallback>
+          </Avatar>
           <p className="text-lg mb-2 text-[hsl(210,100%,25%)]">{t('home.greeting')}</p>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 text-[hsl(210,100%,25%)]">{t('home.name')}</h1>
           <p className="text-2xl mb-2 text-[hsl(210,100%,25%)]">{t('home.age')}</p>
