@@ -14,7 +14,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="bg-white py-32 px-4">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <Avatar className="h-24 w-24 mx-auto mb-6">
+          <Avatar className="h-32 w-32 mx-auto mb-6">
             <AvatarImage src={profilePicture} alt="Profile" />
             <AvatarFallback>ZK</AvatarFallback>
           </Avatar>
