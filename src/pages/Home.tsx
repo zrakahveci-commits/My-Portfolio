@@ -18,11 +18,11 @@ const Home = () => {
             <AvatarImage src={profilePicture} alt="Profile" />
             <AvatarFallback>ZK</AvatarFallback>
           </Avatar>
-          <p className="text-lg mb-2 text-[hsl(210,100%,25%)]">{t('home.greeting')}</p>
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-[hsl(210,100%,25%)]">{t('home.name')}</h1>
-          <p className="text-2xl mb-2 text-[hsl(210,100%,25%)]">{t('home.age')}</p>
-          <p className="text-3xl font-semibold mb-8 text-[hsl(210,100%,25%)]">{t('home.goal')}</p>
-          <p className="text-xl max-w-2xl mx-auto mb-12 text-[hsl(210,100%,25%)]">
+          <p className="text-lg mb-2 text-primary">{t('home.greeting')}</p>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-primary">{t('home.name')}</h1>
+          <p className="text-2xl mb-2 text-primary">{t('home.age')}</p>
+          <p className="text-3xl font-semibold mb-8 text-primary">{t('home.goal')}</p>
+          <p className="text-xl max-w-2xl mx-auto mb-12 text-primary">
             {t('home.intro')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
