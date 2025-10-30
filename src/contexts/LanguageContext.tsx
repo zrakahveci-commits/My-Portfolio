@@ -205,8 +205,8 @@ const translations = {
     'resume.motivation.title': 'My Motivation',
     'resume.motivation.text': 'I am looking for an apprenticeship where I can apply and develop my technical skills. A good work environment, interesting projects, and the opportunity to learn from experienced professionals are particularly important to me. I am highly motivated, reliable, and look forward to gaining practical experience and making a valuable contribution to your team.',
     'resume.timeline.title': 'Timeline',
-    'resume.timeline.2023': '2023-2026: Secondary school Seebel Sek A',
-    'resume.timeline.2017': '2017-2023: Elementary school Breiteacker',
+    'resume.timeline.2023': '2023 - 2026: Secondary school Seebel ( Sek A )',
+    'resume.timeline.2017': '2017 - 2023: Elementary School Breiteacker',
     
     // References Page
     'references.title': 'References',
@@ -229,10 +229,10 @@ const translations = {
     'downloads.multicheck.button': 'Download Multicheck',
     'downloads.certificates.title': 'School Certificates',
     'downloads.certificates.desc': 'All certificates',
-    'downloads.certificates.semester1_1': '1st Sek Semester 1',
-    'downloads.certificates.semester1_2': '1st Sek Semester 2',
-    'downloads.certificates.semester2_1': '2nd Sek Semester 1',
-    'downloads.certificates.semester2_2': '2nd Sek Semester 2',
+    'downloads.certificates.semester1_1': '1st Secondary School Semester 1',
+    'downloads.certificates.semester1_2': '1st Secondary School Semester 2',
+    'downloads.certificates.semester2_1': '2nd Secondary School Semester 1',
+    'downloads.certificates.semester2_2': '2nd Secondary School Semester 2',
     
     // Contact Page
     'contact.title': 'Contact',
