@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import PageHeader from '@/components/PageHeader';
 import { Card } from '@/components/ui/card';
@@ -7,28 +6,47 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from '@/components/ui/form';
+
+const contactSchema = z.object({
+  name: z.string().trim().min(1, 'Name is required').max(100, 'Name must be less than 100 characters'),
+  email: z.string().trim().email('Invalid email address').max(255, 'Email must be less than 255 characters'),
+  subject: z.string().trim().min(1, 'Subject is required').max(200, 'Subject must be less than 200 characters'),
+  message: z.string().trim().min(1, 'Message is required').max(1000, 'Message must be less than 1000 characters'),
+});
+
+type ContactFormData = z.infer<typeof contactSchema>;
 
 const Contact = () => {
   const { t } = useLanguage();
   const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+  
+  const form = useForm<ContactFormData>({
+    resolver: zodResolver(contactSchema),
+    defaultValues: {
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    },
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const onSubmit = (data: ContactFormData) => {
     toast({
       title: t('contact.form.success'),
       duration: 5000,
     });
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    form.reset();
   };
 
   return (
@@ -43,54 +61,66 @@ const Contact = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Contact Form */}
           <Card className="p-8 md:col-span-2 animate-slide-up">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium mb-2">{t('contact.form.name')}</label>
-                <Input
+            <Form {...form}>
+              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                <FormField
+                  control={form.control}
                   name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>{t('contact.form.name')}</FormLabel>
+                      <FormControl>
+                        <Input {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
                 />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">{t('contact.form.email')}</label>
-                <Input
-                  type="email"
+                <FormField
+                  control={form.control}
                   name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>{t('contact.form.email')}</FormLabel>
+                      <FormControl>
+                        <Input type="email" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
                 />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">{t('contact.form.subject')}</label>
-                <Input
+                <FormField
+                  control={form.control}
                   name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                  className="w-full"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>{t('contact.form.subject')}</FormLabel>
+                      <FormControl>
+                        <Input {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
                 />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">{t('contact.form.message')}</label>
-                <Textarea
+                <FormField
+                  control={form.control}
                   name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={6}
-                  className="w-full"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>{t('contact.form.message')}</FormLabel>
+                      <FormControl>
+                        <Textarea rows={6} {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
                 />
-              </div>
-              <Button type="submit" size="lg" className="w-full">
-                <Send className="mr-2 h-5 w-5" />
-                {t('contact.form.send')}
-              </Button>
-            </form>
+                <Button type="submit" size="lg" className="w-full">
+                  <Send className="mr-2 h-5 w-5" />
+                  {t('contact.form.send')}
+                </Button>
+              </form>
+            </Form>
           </Card>
 
           {/* Contact Info */}
