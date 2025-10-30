@@ -156,7 +156,7 @@ const translations = {
     'about.title': 'About Me',
     'about.subtitle': 'Who I Am',
     'about.bio.title': 'My Story',
-    'about.bio.text': 'I am currently in 9th grade at Seebelschule Pfungen and am looking for an exciting apprenticeship. My interests lie primarily in technical areas. Outside of school, I engage in various projects and am always ready to learn something new.',
+    'about.bio.text': 'I am currently in 9th grade at Secondary School Seebel Pfungen and am looking for an exciting apprenticeship. My interests lie primarily in technical areas. Outside of school, I engage in various projects and am always ready to learn something new.',
     'about.languages.title': 'Languages',
     'about.languages.turkish': 'Turkish (1st Native Language)',
     'about.languages.german': 'German (2nd Native Language)',
