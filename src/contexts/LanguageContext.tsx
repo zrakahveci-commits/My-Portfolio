@@ -83,8 +83,8 @@ const translations = {
     'resume.motivation.title': 'Meine Motivation',
     'resume.motivation.text': 'Ich suche eine Lehrstelle, in der ich meine technischen Fähigkeiten einbringen und weiterentwickeln kann. Besonders wichtig sind mir ein gutes Arbeitsklima, interessante Projekte und die Möglichkeit, von erfahrenen Fachkräften zu lernen. Ich bin hochmotiviert, zuverlässig und freue mich darauf, praktische Erfahrungen zu sammeln und einen wertvollen Beitrag zu Ihrem Team zu leisten.',
     'resume.timeline.title': 'Werdegang',
-    'resume.timeline.2023': '2023-2026: Secondary school Seebel Sek A',
-    'resume.timeline.2017': '2017-2023: Elementary school Breiteacker',
+    'resume.timeline.2023': '2023 - 2026: Schulhaus Seebel Sek A',
+    'resume.timeline.2017': '2017 - 2023: Schulhaus Breiteacker',
     
     // References Page
     'references.title': 'Referenzen',
