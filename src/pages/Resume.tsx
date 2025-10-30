@@ -2,7 +2,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import PageHeader from '@/components/PageHeader';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Download, Mail, Phone, MapPin, Heart } from 'lucide-react';
+import { Download, Heart } from 'lucide-react';
 
 const Resume = () => {
   const { t } = useLanguage();
@@ -32,28 +32,8 @@ const Resume = () => {
           </Button>
         </Card>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Contact Info */}
-          <Card className="p-8 animate-slide-up">
-            <h2 className="text-2xl font-bold mb-6">{t('resume.contact.title')}</h2>
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <Mail className="mr-3 h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">{t('resume.contact.email')}</span>
-              </div>
-              <div className="flex items-center">
-                <Phone className="mr-3 h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">{t('resume.contact.phone')}</span>
-              </div>
-              <div className="flex items-center">
-                <MapPin className="mr-3 h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">{t('resume.contact.location')}</span>
-              </div>
-            </div>
-          </Card>
-
-          {/* Timeline */}
-          <Card className="p-8 animate-slide-up">
+        {/* Timeline */}
+        <Card className="p-8 animate-slide-up">
             <h2 className="text-2xl font-bold mb-6">{t('resume.timeline.title')}</h2>
             <div className="space-y-4">
               <div className="border-l-2 border-primary pl-4">
@@ -64,7 +44,6 @@ const Resume = () => {
               </div>
             </div>
           </Card>
-        </div>
 
         {/* Motivation */}
         <Card className="p-8 mt-8 animate-slide-up">

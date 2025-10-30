@@ -125,7 +125,9 @@ const translations = {
     'contact.info.title': 'Kontaktinformationen',
     'contact.info.email': 'zrakahveci@gmail.com',
     'contact.info.phone': '+41 78 940 05 04',
+    'contact.info.phoneLabel': 'Telefon',
     'contact.info.location': 'Pfungen, Schweiz',
+    'contact.info.locationLabel': 'Standort',
     'contact.outro': 'Vielen Dank für Ihre Zeit – ich freue mich auf Ihre Rückmeldung!',
     
     // Footer
@@ -247,7 +249,9 @@ const translations = {
     'contact.info.title': 'Contact Information',
     'contact.info.email': 'zrakahveci@gmail.com',
     'contact.info.phone': '+41 78 940 05 04',
+    'contact.info.phoneLabel': 'Phone',
     'contact.info.location': 'Pfungen, Switzerland',
+    'contact.info.locationLabel': 'Location',
     'contact.outro': 'Thank you for your time – I look forward to hearing from you!',
     
     // Footer

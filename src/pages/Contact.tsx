@@ -137,14 +137,14 @@ const Contact = () => {
               <div className="flex items-start">
                 <Phone className="mr-3 h-5 w-5 text-primary mt-1" />
                 <div>
-                  <p className="font-medium text-sm mb-1">Telefon</p>
+                  <p className="font-medium text-sm mb-1">{t('contact.info.phoneLabel')}</p>
                   <p className="text-sm text-muted-foreground">{t('contact.info.phone')}</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <MapPin className="mr-3 h-5 w-5 text-primary mt-1" />
                 <div>
-                  <p className="font-medium text-sm mb-1">Standort</p>
+                  <p className="font-medium text-sm mb-1">{t('contact.info.locationLabel')}</p>
                   <p className="text-sm text-muted-foreground">{t('contact.info.location')}</p>
                 </div>
               </div>
